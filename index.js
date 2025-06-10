@@ -1,2 +1,2 @@
-import"./assets/styles-DsNyiWoM.js";document.querySelector("#timer-btn").addEventListener("click",()=>{window.location="1-timer.html"});document.querySelector("#snackbar-btn").addEventListener("click",()=>{window.location="2-snackbar.html"});
+import"./assets/styles-DGiBSD1R.js";document.querySelector("#timer-btn").addEventListener("click",()=>{window.location="1-timer.html"});document.querySelector("#snackbar-btn").addEventListener("click",()=>{window.location="2-snackbar.html"});
 //# sourceMappingURL=index.js.map
