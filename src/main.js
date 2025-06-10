@@ -1,6 +1,6 @@
 document.querySelector("#timer-btn").addEventListener("click", () => {
-  window.location = "01-timer.html";
+  window.location = "1-timer.html";
 });
 document.querySelector("#snackbar-btn").addEventListener("click", () => {
-  window.location = "02-snackbar.html";
+  window.location = "2-snackbar.html";
 });
