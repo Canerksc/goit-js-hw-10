@@ -88,7 +88,7 @@ function startTimer() {
 
     const time = convertMs(timeLeft);
     updateTimerDisplay(time);
-  },500 );
+  },1000 );
 }
 
 startBtn.addEventListener('click', startTimer);
