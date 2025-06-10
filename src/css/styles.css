@@ -11,37 +11,6 @@ body {
   color: white;
 }
 
-.button-row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 32px;
-  margin-top: 40px;
-}
-
-#timer-btn, #snackbar-btn {
-    width: 200px;
-    height: 80px;
-    background: rgba(18, 23, 23, 0.9);
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    font-size: 20px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Courier New', Courier, monospace;
-    transition: background 0.3s, color 0.3s, transform 0.2s;
-    box-shadow: #6982b4 0px 10px 16px 0px;
-}
-#timer-btn:hover, #snackbar-btn:hover {
-  background: #fff;
-  color: #121717;
-  transform: translateY(-4px) scale(1.07);
-  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.15);
-}
-
 
 @keyframes gradientBG {
   0% {
@@ -198,4 +167,31 @@ body {
   font-family: 'Courier New', Courier, monospace;
   transition: background 0.3s, color 0.3s, transform 0.2s;
   margin-top: 12px;
+}
+
+.main {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.main a {
+  display: inline-block;
+  padding: 35px 60px;
+  background: linear-gradient(90deg, #6982b4 0%, #00c8ff 100%);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 28px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+}
+
+.main a:hover {
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.12);
+  background: #fff;
+  color: #121717;
 }
